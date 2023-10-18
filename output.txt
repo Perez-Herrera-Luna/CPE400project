@@ -1,0 +1,177 @@
+IPINFO_ACCESS_TOKEN found in .env file
+
+Total number of packets in the pcap files: 3279
+Total number of IP packets: 3265
+Total number of unique destination IP addresses: 44
+Total number of shared IP addresses: 34
+
+52.111.245.2
+Hostname:  N/A
+City:  San Jose
+Organization:  AS8075 Microsoft Corporation
+
+10.136.150.184
+Hostname:  N/A
+City:  N/A
+Organization:  N/A
+
+35.213.89.133
+Hostname:  133.89.213.35.bc.googleusercontent.com
+City:  Tokyo
+Organization:  AS15169 Google LLC
+
+96.16.55.18
+Hostname:  a96-16-55-18.deploy.static.akamaitechnologies.com
+City:  Santa Clara
+Organization:  AS20940 Akamai International B.V.
+
+69.192.139.229
+Hostname:  a69-192-139-229.deploy.static.akamaitechnologies.com
+City:  Santa Clara
+Organization:  AS20940 Akamai International B.V.
+
+34.117.54.213
+Hostname:  213.54.117.34.bc.googleusercontent.com
+City:  Kansas City
+Organization:  AS396982 Google LLC
+
+20.7.1.246
+Hostname:  N/A
+City:  Boydton
+Organization:  AS8075 Microsoft Corporation
+
+151.101.42.132
+Hostname:  N/A
+City:  San Jose
+Organization:  AS54113 Fastly, Inc.
+
+142.251.2.127
+Hostname:  dl-in-f127.1e100.net
+City:  Las Vegas
+Organization:  AS15169 Google LLC
+
+134.197.5.1
+Hostname:  ns1.unr.edu
+City:  Reno
+Organization:  AS3851 Nevada System of Higher Education
+
+23.50.9.73
+Hostname:  a23-50-9-73.deploy.static.akamaitechnologies.com
+City:  San Jose
+Organization:  AS20940 Akamai International B.V.
+
+130.35.75.83
+Hostname:  N/A
+City:  Ashburn
+Organization:  AS31898 Oracle Corporation
+
+96.16.55.157
+Hostname:  a96-16-55-157.deploy.static.akamaitechnologies.com
+City:  Santa Clara
+Organization:  AS20940 Akamai International B.V.
+
+224.0.0.251
+Hostname:  N/A
+City:  N/A
+Organization:  N/A
+
+23.67.33.22
+Hostname:  a23-67-33-22.deploy.static.akamaitechnologies.com
+City:  Santa Clara
+Organization:  AS20940 Akamai International B.V.
+
+23.50.9.81
+Hostname:  a23-50-9-81.deploy.static.akamaitechnologies.com
+City:  San Jose
+Organization:  AS20940 Akamai International B.V.
+
+96.16.55.48
+Hostname:  a96-16-55-48.deploy.static.akamaitechnologies.com
+City:  Santa Clara
+Organization:  AS20940 Akamai International B.V.
+
+23.50.8.34
+Hostname:  a23-50-8-34.deploy.static.akamaitechnologies.com
+City:  San Jose
+Organization:  AS20940 Akamai International B.V.
+
+96.16.55.20
+Hostname:  a96-16-55-20.deploy.static.akamaitechnologies.com
+City:  Santa Clara
+Organization:  AS20940 Akamai International B.V.
+
+23.67.33.13
+Hostname:  a23-67-33-13.deploy.static.akamaitechnologies.com
+City:  Santa Clara
+Organization:  AS20940 Akamai International B.V.
+
+34.98.67.3
+Hostname:  3.67.98.34.bc.googleusercontent.com
+City:  Kansas City
+Organization:  AS396982 Google LLC
+
+23.50.9.42
+Hostname:  a23-50-9-42.deploy.static.akamaitechnologies.com
+City:  San Jose
+Organization:  AS20940 Akamai International B.V.
+
+96.16.55.138
+Hostname:  a96-16-55-138.deploy.static.akamaitechnologies.com
+City:  Santa Clara
+Organization:  AS20940 Akamai International B.V.
+
+23.50.8.219
+Hostname:  a23-50-8-219.deploy.static.akamaitechnologies.com
+City:  San Jose
+Organization:  AS20940 Akamai International B.V.
+
+130.35.159.240
+Hostname:  N/A
+City:  Ashburn
+Organization:  AS31898 Oracle Corporation
+
+96.16.55.171
+Hostname:  a96-16-55-171.deploy.static.akamaitechnologies.com
+City:  Santa Clara
+Organization:  AS20940 Akamai International B.V.
+
+96.16.55.6
+Hostname:  a96-16-55-6.deploy.static.akamaitechnologies.com
+City:  Santa Clara
+Organization:  AS20940 Akamai International B.V.
+
+35.208.249.213
+Hostname:  213.249.208.35.bc.googleusercontent.com
+City:  Council Bluffs
+Organization:  AS15169 Google LLC
+
+96.16.55.94
+Hostname:  a96-16-55-94.deploy.static.akamaitechnologies.com
+City:  Santa Clara
+Organization:  AS20940 Akamai International B.V.
+
+151.101.42.73
+Hostname:  N/A
+City:  San Jose
+Organization:  AS54113 Fastly, Inc.
+
+23.50.8.16
+Hostname:  a23-50-8-16.deploy.static.akamaitechnologies.com
+City:  San Jose
+Organization:  AS20940 Akamai International B.V.
+
+134.197.6.1
+Hostname:  ns2.unr.edu
+City:  Reno
+Organization:  AS3851 Nevada System of Higher Education
+
+130.35.204.0
+Hostname:  N/A
+City:  Ashburn
+Organization:  AS31898 Oracle Corporation
+
+96.16.55.100
+Hostname:  a96-16-55-100.deploy.static.akamaitechnologies.com
+City:  Santa Clara
+Organization:  AS20940 Akamai International B.V.
+
