@@ -1,2 +1,5 @@
-# ignore .env file
+.gitignore
 .env
+/Implementation
+Implementation.zip
+Report.pdf

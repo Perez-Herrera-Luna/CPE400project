@@ -1,177 +1,108 @@
 IPINFO_ACCESS_TOKEN found in .env file
 
-Total number of packets in the pcap files: 3279
-Total number of IP packets: 3265
-Total number of unique destination IP addresses: 44
-Total number of shared IP addresses: 34
+Total number of packets in the pcap files: 43964
+Total number of IP packets: 42898
+Total number of unique destination IP addresses: 117
+Total number of shared IP addresses: 103
 
-52.111.245.2
-Hostname:  N/A
+18.173.121.109
+Hostname:  server-18-173-121-109.sfo53.r.cloudfront.net
 City:  San Jose
-Organization:  AS8075 Microsoft Corporation
+Organization:  AS16509 Amazon.com, Inc.
 
-10.136.150.184
+147.160.190.228
 Hostname:  N/A
-City:  N/A
-Organization:  N/A
+City:  Ashburn
+Organization:  AS396986 Bytedance Inc.
 
-35.213.89.133
-Hostname:  133.89.213.35.bc.googleusercontent.com
-City:  Tokyo
+8.8.8.8
+Hostname:  dns.google
+City:  Mountain View
 Organization:  AS15169 Google LLC
 
-96.16.55.18
-Hostname:  a96-16-55-18.deploy.static.akamaitechnologies.com
-City:  Santa Clara
-Organization:  AS20940 Akamai International B.V.
-
-69.192.139.229
-Hostname:  a69-192-139-229.deploy.static.akamaitechnologies.com
-City:  Santa Clara
-Organization:  AS20940 Akamai International B.V.
-
-34.117.54.213
-Hostname:  213.54.117.34.bc.googleusercontent.com
-City:  Kansas City
-Organization:  AS396982 Google LLC
-
-20.7.1.246
+130.35.157.113
 Hostname:  N/A
-City:  Boydton
-Organization:  AS8075 Microsoft Corporation
+City:  Ashburn
+Organization:  AS31898 Oracle Corporation
 
-151.101.42.132
+71.18.6.225
+Hostname:  N/A
+City:  Los Angeles
+Organization:  AS396986 Bytedance Inc.
+
+71.18.53.228
 Hostname:  N/A
 City:  San Jose
+Organization:  AS396986 Bytedance Inc.
+
+185.199.109.153
+Hostname:  cdn-185-199-109-153.github.com
+City:  San Francisco
 Organization:  AS54113 Fastly, Inc.
 
-142.251.2.127
-Hostname:  dl-in-f127.1e100.net
-City:  Las Vegas
+8.8.4.4
+Hostname:  dns.google
+City:  Mountain View
 Organization:  AS15169 Google LLC
 
-134.197.5.1
-Hostname:  ns1.unr.edu
-City:  Reno
-Organization:  AS3851 Nevada System of Higher Education
-
-23.50.9.73
-Hostname:  a23-50-9-73.deploy.static.akamaitechnologies.com
-City:  San Jose
-Organization:  AS20940 Akamai International B.V.
-
-130.35.75.83
+139.177.233.131
 Hostname:  N/A
 City:  Ashburn
-Organization:  AS31898 Oracle Corporation
+Organization:  AS396986 Bytedance Inc.
 
-96.16.55.157
-Hostname:  a96-16-55-157.deploy.static.akamaitechnologies.com
-City:  Santa Clara
-Organization:  AS20940 Akamai International B.V.
+185.199.111.153
+Hostname:  cdn-185-199-111-153.github.com
+City:  San Francisco
+Organization:  AS54113 Fastly, Inc.
 
-224.0.0.251
+10.215.173.2
 Hostname:  N/A
 City:  N/A
 Organization:  N/A
 
-23.67.33.22
-Hostname:  a23-67-33-22.deploy.static.akamaitechnologies.com
-City:  Santa Clara
-Organization:  AS20940 Akamai International B.V.
-
-23.50.9.81
-Hostname:  a23-50-9-81.deploy.static.akamaitechnologies.com
+18.173.121.30
+Hostname:  server-18-173-121-30.sfo53.r.cloudfront.net
 City:  San Jose
-Organization:  AS20940 Akamai International B.V.
+Organization:  AS16509 Amazon.com, Inc.
 
-96.16.55.48
-Hostname:  a96-16-55-48.deploy.static.akamaitechnologies.com
-City:  Santa Clara
-Organization:  AS20940 Akamai International B.V.
-
-23.50.8.34
-Hostname:  a23-50-8-34.deploy.static.akamaitechnologies.com
-City:  San Jose
-Organization:  AS20940 Akamai International B.V.
-
-96.16.55.20
-Hostname:  a96-16-55-20.deploy.static.akamaitechnologies.com
-City:  Santa Clara
-Organization:  AS20940 Akamai International B.V.
-
-23.67.33.13
-Hostname:  a23-67-33-13.deploy.static.akamaitechnologies.com
-City:  Santa Clara
-Organization:  AS20940 Akamai International B.V.
-
-34.98.67.3
-Hostname:  3.67.98.34.bc.googleusercontent.com
-City:  Kansas City
-Organization:  AS396982 Google LLC
-
-23.50.9.42
-Hostname:  a23-50-9-42.deploy.static.akamaitechnologies.com
-City:  San Jose
-Organization:  AS20940 Akamai International B.V.
-
-96.16.55.138
-Hostname:  a96-16-55-138.deploy.static.akamaitechnologies.com
-City:  Santa Clara
-Organization:  AS20940 Akamai International B.V.
-
-23.50.8.219
-Hostname:  a23-50-8-219.deploy.static.akamaitechnologies.com
-City:  San Jose
-Organization:  AS20940 Akamai International B.V.
-
-130.35.159.240
+147.160.190.227
 Hostname:  N/A
 City:  Ashburn
-Organization:  AS31898 Oracle Corporation
+Organization:  AS396986 Bytedance Inc.
 
-96.16.55.171
-Hostname:  a96-16-55-171.deploy.static.akamaitechnologies.com
-City:  Santa Clara
-Organization:  AS20940 Akamai International B.V.
-
-96.16.55.6
-Hostname:  a96-16-55-6.deploy.static.akamaitechnologies.com
-City:  Santa Clara
-Organization:  AS20940 Akamai International B.V.
-
-35.208.249.213
-Hostname:  213.249.208.35.bc.googleusercontent.com
-City:  Council Bluffs
-Organization:  AS15169 Google LLC
-
-96.16.55.94
-Hostname:  a96-16-55-94.deploy.static.akamaitechnologies.com
-City:  Santa Clara
-Organization:  AS20940 Akamai International B.V.
+18.173.121.82
+Hostname:  server-18-173-121-82.sfo53.r.cloudfront.net
+City:  San Jose
+Organization:  AS16509 Amazon.com, Inc.
 
 151.101.42.73
 Hostname:  N/A
 City:  San Jose
 Organization:  AS54113 Fastly, Inc.
 
-23.50.8.16
-Hostname:  a23-50-8-16.deploy.static.akamaitechnologies.com
-City:  San Jose
-Organization:  AS20940 Akamai International B.V.
+185.199.110.153
+Hostname:  cdn-185-199-110-153.github.com
+City:  San Francisco
+Organization:  AS54113 Fastly, Inc.
 
-134.197.6.1
-Hostname:  ns2.unr.edu
-City:  Reno
-Organization:  AS3851 Nevada System of Higher Education
+185.199.108.153
+Hostname:  cdn-185-199-108-153.github.com
+City:  San Francisco
+Organization:  AS54113 Fastly, Inc.
 
-130.35.204.0
+10.215.173.1
 Hostname:  N/A
-City:  Ashburn
-Organization:  AS31898 Oracle Corporation
+City:  N/A
+Organization:  N/A
 
-96.16.55.100
-Hostname:  a96-16-55-100.deploy.static.akamaitechnologies.com
-City:  Santa Clara
-Organization:  AS20940 Akamai International B.V.
+71.18.50.224
+Hostname:  N/A
+City:  Phoenix
+Organization:  AS396986 Bytedance Inc.
 
+18.173.121.69
+Hostname:  server-18-173-121-69.sfo53.r.cloudfront.net
+City:  San Jose
+Organization:  AS16509 Amazon.com, Inc.
+
+Skipped 83 Akamai IP addresses

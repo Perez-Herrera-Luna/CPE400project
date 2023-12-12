@@ -22,67 +22,54 @@ except:
 packetCounter = 0
 ipCounter = 0;
 sharedIPCounter = 0;
+fileCounterIndex = 0;
 
-filename1 = 'capture1.pcap'
-filename2 = 'capture2.pcap'
-filename3 = 'capture3.pcap'
+filenames = ["capture1.pcap", "capture2.pcap", "capture3.pcap", "capture4.pcap", "capture5.pcap", "capture6.pcap", "capture7.pcap", "capture8.pcap", "capture9.pcap", "capture10.pcap"]
 
 destinationIPs = set()
 sharedIPs = set()
 sharedIPsString = set()
 
-# reads capture1.pcap and adds unique IP addresses to a set
-for ts, pkt in dpkt.pcap.Reader(open(filename1,'rb')):
-
+# read initial pcap file to from destination IP address set
+for ts, pkt in dpkt.pcap.Reader(open(filenames[0],'rb')):
     packetCounter += 1
-    eth = dpkt.ethernet.Ethernet(pkt) 
-    if eth.type != dpkt.ethernet.ETH_TYPE_IP:
+    # read IPv4 packets from non ethernet frames
+    ip = dpkt.ip.IP(pkt)
+    # verify that the packet is IPv4 and TCP (has a valid destination IP address)
+    if ip.p != dpkt.ip.IP_PROTO_TCP:
         continue
 
-    ip = eth.data
     ipCounter += 1
-
-
-    # add unqiue IP addresses to a set
-    destinationIPs.add(ip.dst)
-
-# reads capture2.pcap and adds unique IP addresses to a set
-for ts, pkt in dpkt.pcap.Reader(open(filename2,'rb')):
-
-    packetCounter += 1
-    eth = dpkt.ethernet.Ethernet(pkt) 
-    if eth.type != dpkt.ethernet.ETH_TYPE_IP:
-        continue
-
-    ip = eth.data
-    ipCounter += 1
-
-    # add unqiue IP addresses to a set
-    destinationIPs.add(ip.dst)
 
     # check if IP address is in the set
-    if ip.dst in destinationIPs:
-        sharedIPs.add(ip.dst)
-        sharedIPCounter += 1
-
-# reads capture3.pcap and adds unique IP addresses to a set
-for ts, pkt in dpkt.pcap.Reader(open(filename3,'rb')):
-
-    packetCounter += 1
-    eth = dpkt.ethernet.Ethernet(pkt) 
-    if eth.type != dpkt.ethernet.ETH_TYPE_IP:
-        continue
-
-    ip = eth.data
-    ipCounter += 1
-
     # add unqiue IP addresses to a set
-    destinationIPs.add(ip.dst)
+    try:
+        destinationIPs.add(ip.dst)
+    except:
+        pass
 
-    # check if IP address is in the set
-    if ip.dst in destinationIPs:
-        sharedIPs.add(ip.dst)
-        sharedIPCounter += 1
+# read remaining pcap files. If the destination IP address is already in the set, add it to the shared IP address set
+for filename in filenames[1:]:
+    for ts, pkt in dpkt.pcap.Reader(open(filename,'rb')):
+        packetCounter += 1
+        # read IPv4 packets from non ethernet frames
+        ip = dpkt.ip.IP(pkt)
+        # verify that the packet is IPv4 and TCP (has a valid destination IP address)
+        if ip.p != dpkt.ip.IP_PROTO_TCP:
+            continue
+
+        ipCounter += 1
+
+        # check if IP address is in the set
+        try:
+            if ip.dst in destinationIPs:
+                sharedIPs.add(ip.dst)
+                sharedIPCounter += 1
+
+            # add unique IP addresses to a set
+            destinationIPs.add(ip.dst)
+        except:
+            pass
 
 print("\nTotal number of packets in the pcap files:", packetCounter)
 print("Total number of IP packets:", ipCounter)
@@ -94,11 +81,22 @@ print("")
 for ip in sharedIPs:
     sharedIPsString.add(socket.inet_ntoa(ip))
 
+akamaiCounter = 0 # counts the number of Akamai IP addresses
+
 # print IP address details
 # uses IPinfo API to get details about IP address including hostname, city, and organization
 for ip in sharedIPsString:
-    print(ip)
     details = handler.getDetails(ip)
+
+    # skip Akamai IP addresses
+    try:
+        if "Akamai" in details.org:
+            akamaiCounter += 1
+            continue
+    except:
+        pass
+
+    print(ip)
 
     try:
         print("Hostname: ", details.hostname)
@@ -116,3 +114,5 @@ for ip in sharedIPsString:
         print("Organization: ", "N/A")
     
     print("")
+
+print("Skipped", akamaiCounter, "Akamai IP addresses")
